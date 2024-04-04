@@ -9,9 +9,10 @@ $current_page = basename($_SERVER['PHP_SELF']);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/Workiee-fav.jpg" type="image/x-icon">
+    <link rel="icon" href="https://i.ibb.co/qrsRr2v/workiee-logo.png" type="image/x-icon">
+                    
     <title>
-        <?php echo isset ($pageTitle) ? $pageTitle : 'Workiee'; ?>
+        <?php echo isset ($pageTitle) ? $pageTitle : 'Workiee - Job Portal'; ?>
     </title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>

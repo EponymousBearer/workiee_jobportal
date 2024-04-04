@@ -70,7 +70,7 @@ $result = $conn->query($sql);
           ';
     }
   } else {
-    echo "<p class='w-full text-center py-10 text-2xl text-gray-600'>No companies found.</p>";
+    echo "<p class='w-full text-start py-10 text-2xl text-gray-600'>No companies found.</p>";
   }
   ?>
   </body>

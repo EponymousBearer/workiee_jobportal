@@ -20,7 +20,8 @@ $result = $conn->query($sql); ?>
     </div>
   </div>
 </section>
-<div class="mx-auto gap-4 w-full p-8 md:p-10 lg:py-10 lg:px-12 max-w-screen-2xl flex flex-col md:flex-row md:grid md:grid-cols-2 xl:grid-cols-3">
+<div
+  class="mx-auto gap-4 w-full p-8 md:p-10 lg:py-10 lg:px-12 max-w-screen-2xl flex flex-col md:flex-row md:grid md:grid-cols-2 xl:grid-cols-3">
   <?php
   // Check if there are jobs to display
   if ($result->num_rows > 0) {
@@ -72,7 +73,7 @@ $result = $conn->query($sql); ?>
     }
 
   } else {
-    echo "<p class='p-10 text-center text-primary-600 font-semibold text-2xl'>No Jobs found.<p>";
+    echo "<p class='w-full text-start py-10 text-2xl text-gray-600'>No jobs found.</p>";
   }
   ?>
 </div>
